@@ -1,1 +1,1 @@
-This is a class for creating and retrieving log entries. Also includes search by string. Trying to do by time.
+This is a class for creating and retrieving log entries. Also includes search by string. Trying to finish by time.
