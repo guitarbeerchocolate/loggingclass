@@ -22,8 +22,8 @@ class logger
 
 	function __construct()
 	{
-		$this->config = (object) parse_ini_file('config.ini', true);
-		$this->logFile = fopen($this->config->LOG_LOC, 'a+r');		
+		$this->config = new config;
+		$this->logFile = fopen($this->config->values->LOG_LOC, 'a+r');		
 	}
 
 	function error($msg = NULL)
